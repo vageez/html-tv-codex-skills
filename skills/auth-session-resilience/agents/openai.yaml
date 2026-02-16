@@ -1,0 +1,3 @@
+interface:
+  display_name: "Auth Session Resilience"
+  short_description: "Help with Auth Session Resilience tasks"
