@@ -4,14 +4,14 @@ This adapter bundles one or more Codex skills into a single markdown file that c
 
 ## Script
 
-`/Users/an6106358/CRAVE_HTML_TV/html-tv-codex-skills/create-gemini-skill-pack.sh`
+`create-gemini-skill-pack.sh`
 
 ## 1. Generate A TV Skill Pack From Local Skills
 
 ```bash
-/Users/an6106358/CRAVE_HTML_TV/html-tv-codex-skills/create-gemini-skill-pack.sh \
+create-gemini-skill-pack.sh \
   --skills-root "$HOME/.codex/skills" \
-  --out /Users/an6106358/CRAVE_HTML_TV/html-tv-codex-skills/GEMINI_TV_SKILLS.md \
+  --out /GEMINI_TV_SKILLS.md \
   --include-references \
   tv-app-development \
   spatial-navigation-engineering \
@@ -27,7 +27,7 @@ This adapter bundles one or more Codex skills into a single markdown file that c
 
 ## 2. Use In Gemini
 
-1. Open `/Users/an6106358/CRAVE_HTML_TV/html-tv-codex-skills/GEMINI_TV_SKILLS.md`.
+1. Open `/GEMINI_TV_SKILLS.md`.
 2. Copy the full content.
 3. Paste into Gemini system/developer instructions for your project.
 4. Start prompts with the desired skill names (for example: `Use tv-app-development + input-abstraction-layer`).
